@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(243,243,243);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.card img{
+    width: 30%;
+    margin: 20px;  
+}
+
+.res{
+    font-size: 30px;
+}
+@media (min-width: 0) and (max-width: 800px) {
+    .flex{
+        display: block;  
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+    .card{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}

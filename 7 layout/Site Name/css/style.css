@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/main-pic.png);  
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.main-header{
+    background-color: #4e4b4b;
+    text-transform: capitalize;
+    padding: 30px 0;
+}
+.container{
+    max-width: 1170px;
+    min-width: 930px;
+    margin: 0 auto;
+    color: white;
+}
+.d-flex{
+    display: flex;
+    align-items: center;    
+}
+.justify-between{
+    justify-content: space-between;
+}
+.menu-item-link{
+    color: white; 
+}
+.menu{
+    width: 30%;
+}
+.menu-item{
+    font-size: 17px;
+    list-style-type: none;
+}
+.site{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.main-text{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    color: white;  
+}
+.cras{
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 41px;
+    font-family: 'Francois One', sans-serif;
+}
+.cusce{
+    margin-top: -20px;
+    font-size: 31px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+   
+    width: 150px;
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+    padding: 15px;
+    
+}
+.more{
+    margin: 0px auto;
+    margin-top: -25px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    border:5px solid white;
+}
+.main-cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.main-card{
+    width: 42%;
+    padding: 50px;
+}
+.card-1{
+    background-color: #e84b3d;
+}
+.card-2{
+    background-color: #fdbd1f;
+}
+.card-3{
+    background-color: #1bbc9b;
+}
+.card-4{
+    background-color: #9b58b5;
+}
+.cards-heading{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    text-align: center;
+}
+.item-description{
+    font-size: 16px;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    color: white;  
+}
+.tempor{
+    margin-top: 50px;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Francois One', sans-serif;
+}
+.integer{
+    margin-bottom: 50px;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+.photo-1{
+    border-radius: 50%;
+}
+.photo-2{
+    border-radius: 50%;
+}
+.photo-3{
+    border-radius: 50%;
+}
+.ic-chat::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/ic-chat.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    margin: 15px auto;
+    border-radius: 50%;
+}
+.ic-pencil::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/ic-pencil.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    margin: 15px auto;
+    border-radius: 50%;
+}
+.ic-crown::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/ic-crown.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    margin: 15px auto;
+    border-radius: 50%;
+}
+.ic-user::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/ic-user.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    margin: 15px auto;
+    border-radius: 50%;
+}
+
+.girl-cards{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+.girl-card{
+    width: 30%;
+    color: white;
+    padding: 95px 40px 45px;
+    text-align: center;
+    background: #2a606c;
+    line-height: 2;
+}
+.red-line-under-girl-card{
+    border-top: 5px solid red;
+}
+.yellow-line-under-girl-card{
+    border-top: 5px solid #fcbe26;
+}
+.green-line-under-girl-card{
+    border-top: 5px solid #1ebd9d;
+}
+.read-red{
+    margin: 25px auto;
+    font-weight: bold;
+    background-color: red;
+    font-family: 'Francois One', sans-serif;
+}
+.read-yellow{
+    margin: 25px auto;
+    font-weight: bold;
+    background-color: #fcbe26;
+    font-family: 'Francois One', sans-serif;
+}
+.read-green{
+    margin: 25px auto;
+    font-weight: bold;
+    background-color: #1ebd9d;
+    font-family: 'Francois One', sans-serif;
+}
+footer{
+    background-color: #4e4b4b;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+.designe{
+    color: orange;
+}

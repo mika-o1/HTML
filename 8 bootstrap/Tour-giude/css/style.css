@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.bg-header{
+    height: 10%;
+    color: black;
+    border-bottom: 1px solid rgb(233, 227, 227);
+}
+.tour-header{
+    font-weight: 800;
+}
+.imgheader img{
+    height: 20px;
+}
+.find-block{
+    font-size: 30px;
+    margin-top: 200px;
+}
+.menu-road{
+    border-bottom: 1px solid rgb(233, 227, 227);
+}
+.menu-story{
+    border-bottom: 1px solid rgb(233, 227, 227);
+}
+.story-block{
+    font-size: 30px;
+    margin-top: 100px;
+}
+.text-table{
+    font-size: 16px;
+}
+.nature{
+    margin: -26px;
+}
+.footer-img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border-radius: 1px solid black;
+}
+.posterite-block{
+    border-bottom: 1px solid rgb(233, 227, 227);
+}
+.block::before{
+    content: "";
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    padding: 6px;
+    left: 35%;
+    bottom: 25px;
+}
+.block-1::before{
+    background: url("../img/airplane-48.png") 0 0 no-repeat;
+    background-position: 30px 30px;
+}
+.block-2::before{
+    background: url("../img/map_marker-48.png") 0 0 no-repeat;
+    background-position: 30px 38px;
+}
+.block-3::before{
+    background: url("../img/movie-48.png") 0 0 no-repeat;
+    background-position: 32px 30px;
+}
+.block-4::before{
+    background: url("../img/alarm_clock-48.png") 0 0 no-repeat;
+    background-position: 30px 30px;
+}
+.block-5::before{
+    background: url("../img/face-48.png") 0 0 no-repeat;
+    background-position: 30px 38px;
+}
+.block-6::before{
+    background: url("../img/genius-48.png") 0 0 no-repeat;
+    background-position: 32px 30px;
+}
+.block-decription{
+    text-align: center;
+    font-size: 13px;
+    color: #4b3f55 ;
+    margin-top: 15px;
+}
+.text-decription{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 800;
+}
+.contactme{
+    margin-top: -20px;
+}
+.humancheck{
+    margin-top: 10px;
+}

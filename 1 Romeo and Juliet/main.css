@@ -1,0 +1,20 @@
+.header{
+    text-align: center;
+    color: darkmagenta;
+}
+.align-text{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(221, 217, 217);
+    font-family: Tahoma;
+}
+h2, h3{
+    color: rgb(90, 88, 88);
+}
+.verona{
+    font-size: 13px;
+}
+
+
+

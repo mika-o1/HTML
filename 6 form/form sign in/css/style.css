@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.border-enter{
+    border-bottom: 2px dotted black;
+}
+.form-container-account{
+    display: flex;
+    justify-content: center;
+}
+.form-account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e7f6fd;
+    border: 1px solid #e7f6fd;
+    border-radius: 5px;
+    padding: 15px;
+}
+.enter-account{
+    font-style: oblique;
+}
+.key-enter{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.underline{
+    text-decoration: underline;
+}
+.form-row{
+    margin: 0 0 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.form-block .form-row label{
+    width: 250px;
+}
+input[type="checkbox"]{
+    width: auto;
+    margin-top: 5px;
+    display: none;
+}
+label [type="text"]+label [type="password"]{
+    margin-left: 15px;
+    flex-direction: column;
+}
+.form-block .form-row label[type="checkbox"]{
+    margin-left: 25px;
+}
+.form-block .form-row input[type="checkbox"]+label span{
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background: url("../img/check-radio.jpg");
+    background-position: -5px -4px;
+    background-repeat: no-repeat;
+    margin: 3px 1px 0;
+    transition-duration: 600ms;
+}
+.form-block .form-row input[type="checkbox"]:checked+label span{
+    background-position: -5px -27px;
+    transition-duration: 600ms;
+}
+.form-block .form-row input[type="text"]{
+    width: auto;
+    margin-left: -90px;
+}
+.form-block .form-row input[type="password"]{
+    width: auto;
+    margin-left: -90px;
+}
+.form-row button[type="submit"] {
+    padding: 5px 0;
+    width: 80px;
+    border: 1px solid #2e836c;
+    border-radius: 10px;
+    background: #2e836c;
+    color: white; 
+}
+.btn-enter{
+    margin-top: -50px;
+    margin-left: 280px;
+} 
+.answer{
+    margin-left: -25px;
+}
+input[type="submit"] {
+    padding: 5px 0;
+    width: 100px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    color: black; 
+}
+.remember{
+    margin-left: 250px;
+    font-size: 12px;
+}
+.form-check .checkbox-quess{
+    margin-left: 40px;
+    font-size: 12px;
+}
+.sign-in{
+    background-color: #eae6e7;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    margin: 250px auto 0 auto;
+}
+.form-box h4{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: grey;
+}
+.form-box .form-input{
+    position: relative;
+}
+.form-box .form-input input{
+    width: 50%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px solid black;
+    padding-left: 45px;
+}
+.form-box .form-input span{
+    position: absolute;
+    top: 8px;
+    padding-left: 20px;
+    color: #777777;
+}
+.form-box .form-input input::placeholder{
+    padding-left: 0px;
+}
+.btn-block{
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sign-block{
+    margin: 0px auto ;
+}
+a{
+    text-decoration: none;
+}
+.member{
+    text-decoration: none;
+    color: #777777;
+}
+.now-sign{
+    color: black;
+}

@@ -1,0 +1,22 @@
+*{
+    background-color:#ec9eae;
+}
+.fruits li{
+    background: #c66377;
+    color: white;
+    font-size: 50px;
+    margin: 50px 90px 50px 70px;
+    padding: 10px 10px 10px 0px ;
+    font-family: Arial, sans-serif;
+}
+span{
+    background: #9c364b;
+    padding: 10px 30px 10px 30px;
+}
+
+.fruits-icon li::marker{
+    background: #c66377;
+    width: fit-content;
+    margin: 50px 90px 50px 70px;
+    padding: 10px 10px 10px 0px ;
+}

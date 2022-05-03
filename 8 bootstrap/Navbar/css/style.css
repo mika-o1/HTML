@@ -1,0 +1,16 @@
+.box{
+    background-color: red;
+    border: 2px solid black;
+    padding: 25px 0;
+}
+.promo{
+    padding: 55px 0;
+}
+.card{
+    padding: 5px;
+}
+
+
+/* .head-button{
+    padding: 150px;
+} */

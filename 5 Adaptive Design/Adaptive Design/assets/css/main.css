@@ -1,0 +1,85 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.main {
+    background: #024242;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 64px 40px;
+    border-radius: 10px;
+}
+
+.main h2 {
+    font-size: 42px;
+    padding-right: 170px;
+}
+.main .main-card {
+    display: flex;
+}
+
+.main .card {
+    display: flex;
+    width: 50%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    flex-wrap: wrap;
+}
+.main .card img {
+    width: 30%;
+    height: fit-content;
+    margin-right: 5%;
+}
+.main .card .inner {
+    width: 65%;
+}
+
+h3{
+    color: grey;
+    font-size: 16px;
+}
+.main .card h3 {
+    margin: 0;
+    font-size: 16px;
+}
+.main .card p {
+    font-size: 14px;
+}
+@media (min-width: 0) and (max-width: 600px) {
+    .main .main-card {
+        display: block;
+        width: 100%;
+    }
+
+    .main .card {
+        display: block;
+        width: 100%;
+    }
+
+    .main .card .inner {
+        width: 100%;
+    }
+
+    .main .card img {
+        width: 20%;
+    }
+
+    .main h2 {
+        font-size: 24px;
+    }
+
+    .main p {
+        font-size: 14px !important;
+    }
+
+    .main {
+        padding: 40px 20px;
+        margin: 0;
+        width: 100%;
+    }
+}

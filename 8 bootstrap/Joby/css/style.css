@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.bg-header{
+    background: #5bbc2e;
+}
+.services-block-icon-menu{
+    background-color: #f5f5f5;
+}
+.services-block{
+    margin: 0px auto;
+}
+.give-block{
+    font-size: 48px;
+    font-weight: 800;
+}
+.service-heading{
+    color: #5bbc2e;
+}
+.text-block {
+    font-size: 12px;
+    color: #515151;
+    font-weight: 400;
+}
+.vision{
+    font-size: 18px;
+    color: #5bbc2e;
+    text-transform: uppercase;
+}
+.text-table{
+    font-size: 12px;
+    color: #515151;
+}
+.block::before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.icon-1::before{
+    
+    background: url("../img/ic-1.png") 0 0 no-repeat;
+    background-position: 10px 10px;
+}
+.icon-2::before{
+    background: url("../img/ic-2.png") 0 0 no-repeat;
+    background-position: 10px 10px;
+}
+.icon-3::before{
+    background: url("../img/ic-3.png") 0 0 no-repeat;
+    background-position: 10px 10px;
+}
+.icon-4::before{
+    background: url("../img/ic-4.png") 0 0 no-repeat;
+    background-position: 10px 10px;
+}
+.find-block{
+    font-size: 30px;
+    color: #8d8d8d;
+    font-weight: 800;
+}
+.menu-perfect{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.menu-great{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f5f5f5;
+}
+.menu-item{
+    font-size: 12px;
+    list-style-type: none;
+    color: #4b4b4b;
+}
+.menu-item::before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 25px;
+    background: url("../img/arrow.png") 0 0 no-repeat;
+    background-position: 25px 10px;
+}
+.menu-cards{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.block-resent{
+    margin: 0px 0px 15px;
+}
+footer{
+    background: #141414;
+}
+.menu-footer{
+    color: #e0e0e0;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.graphics-icon{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #4b4b4b;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.text-btn{
+    color: white;
+    font-weight: 600;
+}
+.graphics-btn1{
+    background: #2ca7e0;
+}
+.graphics-btn2{
+    background: #5bbc2e;
+}
+.graphics-btn3{
+    background: #c42fc9;
+}
+.graphics-btn4{
+    background: #dac10f;
+}

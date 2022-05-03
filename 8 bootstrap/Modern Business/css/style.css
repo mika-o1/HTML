@@ -1,0 +1,23 @@
+.img-fluid{
+    
+    width: 100%;
+}
+.welcome{
+    padding-top: 50px;
+}
+.portfolio-heading{
+    padding-top: 50px;
+}
+.modern-business{
+    padding-top: 50px;
+} 
+.text-icon{
+    padding-right: 5px;
+}
+.lorem-block{
+    padding: 20px 0px 5px;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

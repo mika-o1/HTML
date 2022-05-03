@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.main-header{
+    padding: 20px 0;
+}
+.container{
+    width: 1120px;
+    margin: 0 auto;
+    
+}
+
+.menu-item{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    top: 50px;
+    right: -600px;
+      
+}
+.menu-link{
+    padding: 20px;
+    color: green;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.title{
+    color: blue;
+}
+.seven{
+    font-size: 38px;
+    color: grey;
+    text-align: left;
+    position: relative;
+    top: -15px;
+    right: -125px;
+}
+.main-text{
+    position: absolute;
+    height: 150px;
+    width: 600px;
+    background: blue;
+    top: 350px;
+    left: 50px;
+    color: white;
+
+}
+.welcome{
+    font-size: 34px;
+    font-style: normal;
+}
+.website{
+    font-size: 30px;
+    font-style: italic;
+}
+.cards{
+    text-align: center;
+    padding: 30px;
+    margin-left: -1px;
+    
+}
+.card{
+    position: relative;
+    color: white;
+    display: inline-block;
+    width: 320px;
+    height: 200px;
+    background: url(../img/photo-1.jpg) no-repeat;
+    background-size: cover;
+}
+.give-online{
+    background: url(../img/photo-2.jpg) no-repeat;
+    background-size: cover;
+}
+.prayer{
+    background: url(../img/photo-3.jpg) no-repeat;
+    background-size: cover;
+}
+
+.cards-heading{
+    font-size: 45px;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+       
+}
+.item-description{
+    width: 250px;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: blue;
+}
+.arrow .arrow2{
+    position: relative;
+    bottom: 45px;
+    right: -405px;
+    width: 15px;
+    height: 3px;
+    background-color: black;
+    z-index: 3;
+}
+.arrow .arrow2::after{
+content: "";
+position: absolute;
+width: 10px;
+height: 3px;
+top: -3px;
+right: -2px;
+background-color: black;
+transform: rotate(45deg);
+}
+.arrow .arrow2::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    top: 3px;
+    right: -2px;
+    background-color: black;
+    transform: rotate(-45deg);
+    }
+ .give-quick{
+    position: relative;
+    bottom: 48px;
+    right: -730px;
+    width: 15px;
+    height: 3px;
+    background-color: black;
+    z-index: 3;
+ }
+ .give-quick2::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    top: 3px;
+    right: -2px;
+    background-color: black;
+    transform: rotate(-45deg);
+ }
+ .give-quick2::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    top: -3px;
+    right: -2px;
+    background-color: black;
+    transform: rotate(45deg);
+ }  
+ .pray-submit{
+    position: relative;
+    bottom: 50px;
+    right: -1055px;
+    width: 15px;
+    height: 3px;
+    background-color: black;
+    z-index: 3;
+ } 
+ .pray-submit2::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    top: -3px;
+    right: -2px;
+    background-color: black;
+    transform: rotate(45deg);
+ }
+ .pray-submit2::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    top: 3px;
+    right: -2px;
+    background-color: black;
+    transform: rotate(-45deg);
+ }
+
+footer{
+    background-color: gray;
+    height: 20px;
+    color: white;
+    padding: 200px;
+    font-size: 12px;
+  
+   
+}
+.sign{
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    top: -35px;
+    left: -14px; 
+    padding: 0px;
+}
+.btn{
+    background-color: blue; 
+    width: 150px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none; 
+}
+.service{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    top: -105px;
+    right: -700px; 
+    padding: 0px;
+}
+.service-time{
+    text-transform: uppercase;
+}
+.lorem{
+    color: whitesmoke;
+    font-size: 10px;
+}
+.event{
+    font-size: 22px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    top: -15px;
+    left: 100px; 
+    padding: 20px;
+}
+.events{
+    position: relative;
+    display: inline-block;
+    top: -15px;
+    left: 100px; 
+    padding: 20px;
+    text-transform: uppercase;
+    margin-left: -10px;
+}
+.number{
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    top: -15px;
+    left: -20px; 
+    padding: 20px;
+}
+.family{
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    top: -15px;
+    left: -30px; 
+    padding: 20px;
+}
+.time{
+    font-size: 13px;
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: -160px; 
+    
+}
+.lorem-text{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    top: -105px;
+    right: -700px; 
+    padding: 0px;
+}
+.lorem-texts{
+    position: relative;
+    display: inline-block;
+    top: -700px;
+    right: 580px; 
+    padding: 500px;
+    text-align: justify;
+}
+.texts{
+    position: relative;
+    display: inline-block;
+    top: -200px;
+    right: 100px; 
+    padding: 20px;
+    text-transform: uppercase;
+}
+.more{
+    position: relative;
+    display: inline-block;
+    top: -5px;
+    right: 8px; 
+    padding: 10px;
+    width: 100px;
+}
+.more2{
+    position: relative;
+    display: inline-block;
+    top: -5px;
+    right: -6px; 
+    padding: 10px;
+    width: 100px;
+}
+.read{
+    text-transform: uppercase;
+    color: red;
+    position: relative;
+    top: -1150px;
+    right: 80px;
+}
